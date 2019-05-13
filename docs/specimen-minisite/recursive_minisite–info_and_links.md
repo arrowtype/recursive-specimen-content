@@ -114,7 +114,7 @@ https://twitter.com/zachlieberman/status/1108153597945171969
 
 ![](assets/2019-05-09-12-22-54.png)
 
-\*\*EnFont Terrible
+## EnFont Terrible
 
 What an amazing type experiment! https://enfont-terrible.glitch.me/
 
