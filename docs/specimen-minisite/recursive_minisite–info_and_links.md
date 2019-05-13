@@ -18,6 +18,53 @@ https://github.com/thundernixon/recursive/tree/master/fonts
 
 # Aesthetic / interactive inspiration for minisite
 
+## Type Experiments
+
+**EnFont Terrible**
+
+What an amazing type experiment! https://enfont-terrible.glitch.me/
+
+![](assets/2019-05-09-14-50-14.png)
+
+This makes me think that it might be super useful for coders if they could dial-in a family style in the type tester, then download this straight away to use in their local IDE. **This would be a lot like the "Customize your download" option on the Input Mono minisite: http://input.fontbureau.com/download/.** I assume this would use fonttools to generate static instances from the variable fonts, and might be a fly-out panel in the type tester.
+
+I would be happy to assist in the design & development of this. Potentially, if this is out of scope for the immediate project, it's the kind of thing I could also add, later on, independently.
+
+**Amazing interactive way to draw with type.**
+
+- http://whatsyourproposition.com/
+  ![](assets/recursive-minisite-inspo.png)
+
+**ASCII Art**
+Obviously, ASCII art is a great use case for monospace type. This is a nice example of that:
+
+- [https://twitter.com/rob_arista/status/1115926127112019969](https://twitter.com/rob_arista/status/1115926127112019969)
+  ![](assets/recursive-minisite-inspo-5.png)
+
+**Even better ASCII Art**
+
+- http://www.underware.nl/fonts/zeitung_mono/features/ASCIITV/ManRay?ASCII=10&color=6
+  ![](assets/recursive-minisite-inspo-6.png)
+
+**Not quite sure what this is, but it’s a nice animation.**
+
+- [https://twitter.com/n_a_n_co/status/1116639626268172288](https://twitter.com/n_a_n_co/status/1116639626268172288)
+  ![](assets/recursive-minisite-inspo-4.png)
+
+**This amazing mix of color:**
+
+https://twitter.com/RavenKwok/status/1120716979302592513
+
+[https://twitter.com/RavenKwok/status/1120716979302592513](https://twitter.com/RavenKwok/status/1120716979302592513)
+
+**All of this guy’s work, but especially stuff like this:**
+
+https://twitter.com/zachlieberman/status/1108153597945171969
+
+[https://twitter.com/zachlieberman/status/1108153597945171969](https://twitter.com/zachlieberman/status/1108153597945171969)
+
+![](assets/2019-05-09-12-22-54.png)
+
 # Colors
 
 https://twitter.com/arkotypeco/status/1121994178785882113
@@ -77,48 +124,6 @@ Really excellent set of SVG illustrations of a wide range of suggested uses. Mak
 
 http://halyard.dardenstudio.com/#welcome
 
-## Type Experiments
-
-**Amazing interactive way to draw with type.**
-
-- http://whatsyourproposition.com/
-  ![](assets/recursive-minisite-inspo.png)
-
-**ASCII Art**
-Obviously, ASCII art is a great use case for monospace type. This is a nice example of that:
-
-- [https://twitter.com/rob_arista/status/1115926127112019969](https://twitter.com/rob_arista/status/1115926127112019969)
-  ![](assets/recursive-minisite-inspo-5.png)
-
-**Even better ASCII Art**
-
-- http://www.underware.nl/fonts/zeitung_mono/features/ASCIITV/ManRay?ASCII=10&color=6
-  ![](assets/recursive-minisite-inspo-6.png)
-
-**Not quite sure what this is, but it’s a nice animation.**
-
-- [https://twitter.com/n_a_n_co/status/1116639626268172288](https://twitter.com/n_a_n_co/status/1116639626268172288)
-  ![](assets/recursive-minisite-inspo-4.png)
-
-**This amazing mix of color:**
-
-https://twitter.com/RavenKwok/status/1120716979302592513
-
-[https://twitter.com/RavenKwok/status/1120716979302592513](https://twitter.com/RavenKwok/status/1120716979302592513)
-
-**All of this guy’s work, but especially stuff like this:**
-
-https://twitter.com/zachlieberman/status/1108153597945171969
-
-[https://twitter.com/zachlieberman/status/1108153597945171969](https://twitter.com/zachlieberman/status/1108153597945171969)
-
-![](assets/2019-05-09-12-22-54.png)
-
-## EnFont Terrible
-
-What an amazing type experiment! https://enfont-terrible.glitch.me/
-
-![](assets/2019-05-09-14-50-14.png)
 
 ## Risography
 
