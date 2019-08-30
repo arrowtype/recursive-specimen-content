@@ -5,25 +5,41 @@ _Edited by Noemi Stauffer_
 
 ## A typographic pallette for code & UI
 
-Recursive is a type family made primarily for use in programming and software user interfaces. Its letterforms are inspired by single-stroke casual signpainting but simplified in order to allow effective, highly-legible usage in text sizes, with a special focus on providing typographic flexibility and expressive range on screens and on the web. It was first conceived & designed as my thesis project at TypeMedia 2018, a one–year MA program in type design at the Royal Academy of Art (KABK) in The Netherlands. This year, Google Fonts sponsored the completion of the project for release under the Open Font License.
+Recursive is a type family made primarily for use in programming and software user interfaces. Its letterforms are inspired by single-stroke casual signpainting but simplified in order to allow effective, highly-legible usage in text sizes, with a special focus on providing typographic flexibility and expressive range on screens and on the web. It has been built as a _variable font_[1] from the start, and its design takes creative advantage of this leap forward in font technology.
+
+    [1] A **variable font** is a font file that includes multiple typographic styles, allowing selection between these styles. By comparison, most traditional digital fonts are _static fonts,_ which only include a single, unchangeable style per file. The most obvious benefit of variable fonts is filesize reduction. Other benefits include fine-grained design control and the ability to transition smoothly between styles.
+
+Recursive was first conceived & designed as my thesis project at TypeMedia 2018, a one–year Masters course in type design at the Royal Academy of Art (KABK) in The Netherlands. This year, Google Fonts commissioned the completion of the project for release under the _SIL Open Font License_[2]. 
+
+    [2] The **SIL Open Font License** (OFL) allows anyone to use a typeface freely in their projects. This goes beyond the font being available at no cost, but also allows users to modify it as needed, or evern adapt the components for completely new typefaces. One of the few restrictions for an OFL typeface is that fonts that start as modified versions  of it must also be released under the same OFL license. [read the license](link here to recursive OFL license)
 
 ![Early sketch of Recursive](images/recursive-early_sketch-aligns.jpg)
 
 ![Early sketch of Recursive](images/recursive-early_sketch-strokes.jpg)
 
-So far, Recursive has received over 10 months of intense, full-time focus from me, as well as about 4 months of combined effort from collaborators. It is a complex project. Typical digital type families are a series of individual font files, which might have the four "RIBBI" styles (Regular, Italic, Bold, Bold Italic), or if they get more elaborate may generate extra font weights as interpolations of a slightly-wider range drawn in four or six "master" source files. Recursive, meanwhile, is built from 24 font masters which are compiled into a single, ultra-flexible variable font [1] file with 5 stylistic axes. 
-
-    [1] A variable font is...
-
-Managed in Git version-control software from the start, Recursive has received nearly 2,000 commits from 5 contributors. Modern-day type design is a surprisingly multi-discliplinary field in which practicioners commonly split their time between type drawing, graphic design, and coding. Throughout the project, I coded as a way to automate my workflow, generate test proofs of the work-in-progress, check source files for quality, build design files into working variable fonts, and use the output fonts in web experiments. Along the way, I used the current versions of Recursive Mono as my primary font in code editors. This, in turn, was a way to test the font itself, interogating the design as worked with it. By using the font outputs as a tool to produce the font, I was working _recursively_ – using outputs as inputs to achieve a result that would have otherwise been impossible.
-
-## Goals of the project
+## Project goals & approach
 
 The project has been driven by three primary goals:
 
 1. Making something that would provide the most utility (and fun) to developers and designers
-2. Exploring what is possible with variable fonts, beyond the usual "weight, width, and filesize saving" aspects that people tend to focus on.
-3. Chasing a personal curiosity: what might a "casual script" for code should look like?
+2. Exploring what is possible with variable fonts – beyond the usual "weight, width, and filesize saving" aspects that tend get the most attention.
+3. Chasing a personal curiosity: what might a "single-stroke casual" for code & digital design look like?
+
+So far, Recursive has received over 10 months of intense, full-time focus from me, as well as more than 4 months of combined effort from collaborators. It is a complex project. Typical digital type families are a series of individual font files, which might have the four "RIBBI" styles (Regular, Italic, Bold, Bold Italic), or if they get more elaborate may generate extra font weights as interpolations of a slightly-wider range drawn in four or six "master" source files. Recursive, meanwhile, is built from 24 font masters which are compiled into a single, ultra-flexible variable font file with 5 stylistic axes. Of course, it also includes carefully-planned _named instances_[2]
+
+    [2] **Named instances** are pre-defined styles of a variable font. They allow a variable font to be used just like familiar type families of static fonts. In design programs like Figma or Adobe Illustrator, named instances are accessed through the font style menu, and typically include styles like "Regular," "Italic," "ExtraBold Italic," and so on.
+
+The Recursive project has been managed in Git version-control software from the start. In that time, Recursive has received nearly 2,000 commits from 5 contributors. Modern-day type design is a surprisingly multi-discliplinary field in which practicioners commonly split their time between drawing type, graphic design, and programming (mostly with Python).
+ 
+Throughout this type project, I coded as a way to automate repetive workflows, generate test proofs of the work-in-progress, check source files for quality, build design files into working variable fonts, and use the output fonts in web experiments. Along the way, I used the then-current versions of Recursive Mono as my primary font in code editors. This, in turn, was a way to test the font itself, finding what worked (and what didn't) in the design as I worked with it. By using the font outputs as a tool to produce the font, I was working _recursively_[3] – using outputs as inputs to achieve a result that would have otherwise been impossible.
+
+    [3] In computer science, **recursion** is a problem-solving technique in which functions call themselves. 
+
+## Naming sidebar
+
+"Recursive" names are surprisingly common in technology: PHP is _**P**HP: **H**ypertext **P**reprocessor_, GNU is **G**NU's **N**ot **U**nix, [and so on](link to Wikipedia's list of recursive names in computer science). Instead of coming up with a "recursive" name for my computer-oriented "cursive" font, I realized that the name _Recursive_ was a good fit, already. Recursive is not technically _cursive,_ because a truly-connected script would not be particularly readable in code or application interfaces. Yes, I explored this. 
+
+[IMAGE: monospace cursive](Fun to look at – hard to read)
 
 ## My background
 
