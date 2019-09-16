@@ -1,3 +1,4 @@
+
 # Recursive: Origins & Process
 
 _Written by Stephen Nixon_
@@ -9,9 +10,9 @@ Recursive is a type family made primarily for use in programming and software us
 
     [1] A **variable font** is a font file that includes multiple typographic styles, allowing selection between these styles. By comparison, most traditional digital fonts are _static fonts,_ which only include a single, unchangeable style per file. The most obvious benefit of variable fonts is filesize reduction. Other benefits include fine-grained design control and the ability to transition smoothly between styles.
 
-Recursive was first conceived & designed as my thesis project at [TypeMedia](http://typemedia.com) 2018, a one–year Masters course in type design at the Royal Academy of Art (KABK) in The Netherlands. This year, Google Fonts commissioned the completion of the project for release under the _SIL Open Font License_[2]. 
+Recursive was first conceived & designed as my thesis project at TypeMedia 2018, a one–year Masters course in type design at the Royal Academy of Art (KABK) in The Netherlands. This year, Google Fonts commissioned the completion of the project for release under the _SIL Open Font License_[2]. 
 
-    [2] The **SIL Open Font License** (OFL) allows anyone to use a typeface freely in their projects. This goes beyond the font being available at no cost, but also allows users to modify it as needed, or evern adapt the components for completely new typefaces. One of the few restrictions for an OFL typeface is that fonts that start as modified versions of it must also be released under the same OFL license. [read the license](link here to recursive OFL license)
+    [2] The **SIL Open Font License** (OFL) allows anyone to use a typeface freely in their projects. This goes beyond the font being available at no cost, but also allows users to modify it as needed, or evern adapt the components for completely new typefaces. One of the few restrictions for an OFL typeface is that fonts that start as modified versions  of it must also be released under the same OFL license. [read the license](link here to recursive OFL license)
 
 ![Early sketch of Recursive](images/recursive-early_sketch-aligns.jpg)
 
@@ -19,23 +20,23 @@ Recursive was first conceived & designed as my thesis project at [TypeMedia](htt
 
 ## Project goals & approach
 
-The Recursive project has been driven by three primary goals. With it, I seek to:
+The project has been driven by three primary goals:
 
-1. Make something that can provide the most utility (and fun) to developers and designers.
-2. Explore what is possible with variable fonts – beyond the usual "weight, width, and filesize saving" aspects that tend get the most attention.
-3. Chase a personal curiosity: what might a "single-stroke casual" for code & digital design look like?
+1. Making something that would provide the most utility (and fun) to developers and designers
+2. Exploring what is possible with variable fonts – beyond the usual "weight, width, and filesize saving" aspects that tend get the most attention.
+3. Chasing a personal curiosity: what might a "single-stroke casual" for code & digital design look like?
 
-So far, Recursive has received over 10 months of intense, full-time focus from me, as well as more than 4 months of combined effort from collaborators (not counting auxilary projects like this specimen website). It is a complex project. Typical digital type families are a series of individual font files, which might have the four "RIBBI" styles (Regular, Italic, Bold, Bold Italic). Fonts that are more elaborate may have extra font weights generated as interpolations of a slightly-wider range drawn in four or six "master" source files. Recursive, meanwhile, is built from 24 font masters, which are compiled into a single, ultra-flexible variable font file with 5 stylistic axes. Of course, it also includes carefully-planned _named instances_[2]
+So far, Recursive has received over 10 months of intense, full-time focus from me, as well as more than 4 months of combined effort from collaborators. It is a complex project. Typical digital type families are a series of individual font files, which might have the four "RIBBI" styles (Regular, Italic, Bold, Bold Italic), or if they get more elaborate may generate extra font weights as interpolations of a slightly-wider range drawn in four or six "master" source files. Recursive, meanwhile, is built from 24 font masters which are compiled into a single, ultra-flexible variable font file with 5 stylistic axes. Of course, it also includes carefully-planned _named instances_[2]
 
     [2] **Named instances** are pre-defined styles of a variable font. They allow a variable font to be used just like familiar type families of static fonts. In design programs like Figma or Adobe Illustrator, named instances are accessed through the font style menu, and typically include styles like "Regular," "Italic," "ExtraBold Italic," and so on.
 
-The Recursive project has been managed in Git version-control software from the start. In that time, Recursive has received nearly 2,000 commits from 5 contributors (and it's still not quite done, yet!). The project has been much more than just drawing letters, however. Modern-day type design is a surprisingly multi-discliplinary field in which practicioners commonly split their time between drawing type, graphic design, and programming (mostly with Python).
+The Recursive project has been managed in Git version-control software from the start. In that time, Recursive has received nearly 2,000 commits from 5 contributors. Modern-day type design is a surprisingly multi-discliplinary field in which practicioners commonly split their time between drawing type, graphic design, and programming (mostly with Python).
  
-Throughout this type project, I coded as a way to automate repetive workflows, generate test proofs of work-in-progress, check source files for quality, build design files into working variable fonts, and use the output fonts in web experiments. Along the way, I used the then-current versions of Recursive Mono as my primary font in code editors. This, in turn, was a way to test the font itself, finding what worked (and what didn't) in the design as I worked with it. By using the font outputs as a tool to produce the font, I was working _recursively_[3] – using outputs as inputs to achieve a result that would have otherwise been impossible.
+Throughout this type project, I coded as a way to automate repetive workflows, generate test proofs of the work-in-progress, check source files for quality, build design files into working variable fonts, and use the output fonts in web experiments. Along the way, I used the then-current versions of Recursive Mono as my primary font in code editors. This, in turn, was a way to test the font itself, finding what worked (and what didn't) in the design as I worked with it. By using the font outputs as a tool to produce the font, I was working _recursively_[3] – using outputs as inputs to achieve a result that would have otherwise been impossible.
 
     [3] In computer science, **recursion** is a problem-solving technique in which functions call themselves. 
 
-## An aside on naming
+## Naming sidebar
 
 "Recursive" names are surprisingly common in technology: PHP is _**P**HP: **H**ypertext **P**reprocessor_, GNU is **G**NU's **N**ot **U**nix, [and so on](link to Wikipedia's list of recursive names in computer science). Instead of coming up with a "recursive" name for my computer-oriented "cursive" font, I realized that the name _Recursive_ was a good fit, already. Recursive is not technically _cursive,_ because a truly-connected script would not be particularly readable in code or application interfaces. Yes, I explored this. 
 
@@ -45,86 +46,48 @@ Throughout this type project, I coded as a way to automate repetive workflows, g
 
 Ultimately, Recursive has been a way to explore & combine several things I love: beautiful letterforms, web design & development, and font technology.
 
-I grew up in South Dakota. It was a beautiful place to grow up, but not exactly an epicenter of design. I've been drawing letters ever since first learning about them, but wasn't until a high school art class that I realized graphic design was an actual career possibility. I eventually went to the University of Minnesota for Graphic Design. In college, it was a similar revelation that type design itself was a career and that educational programs like KABK TypeMedia existed.
+I grew up in Rapid City, in the Black Hills of South Dakota. It was a beautiful place to grow up, but not exactly an epicenter of design. I had an early love of letters, drawing the logos of sports teams and imagining the brands for speculative car companies, and later making T-shirts and flyers for the rock bands I played in. I was passionate about many things, but making logos and lettering was the one thing I could focus on more than any other. It wasn't until a high school art class that I realized graphic design was an actual career possibility with real colleges dedicated to the subject, and I eventually went to the College of Design at the University of Minnesota in the Twin Cities (UMN) for Graphic Design. In college, it was a similar revelation that type design itself was a career and that educational programs like KABK TypeMedia existed.
 
-During my time at the UMN, I studied a wide range of subjects in graphic design, but leaned most into typography and technology classes. For my senior thesis, I designed a type family, Warehouse, based on the historical signage in downtown Minneapolis. This typeface took inspiration from two main forms of lettering in ghost signage – one part of the family was  "Warehouse Gothic," with shapes similar to many classic sans-serifs designs, while a complementary part of the family was "Warehouse Square," which had letters that were rectangular with rounded corners. To distribute Warehouse and two other display fonts I had made as side-projects, I designed and built a website (which is miraculously [still available on the Internet Archive's Wayback Machine](https://web.archive.org/web/20170720054923/http://www.fourthfloorfoundry.com/index.html)). In some ways, Warehouse was a precursor to Recursive. 
+During my time at the UMN, I studied a wide range of subjects in graphic design, but leaned most into typography and technology classes. For my senior thesis, I designed a type family, Warehouse, based on the historical signage in downtown Minneapolis. This typeface took inspiration from two main forms of lettering in ghost signage – one part of the family was  "Warehouse Gothic," with shapes similar to many classic sans-serifs designs, while a complementary part of the family was "Warehouse Square," which had letters that were rectangular with rounded corners. To distribute Warehouse and two other display fonts I had made as side-projects, I designed and built a website (which is miraculously [still available on the Internet Archive's Wayback Machine](https://web.archive.org/web/20170720054923/http://www.fourthfloorfoundry.com/index.html)). Thought there are clearly similarities between Warehouse and Recursive, I was months into this project before realizing that it was, in part, a progression of my earlier thesis project.
 
-![Warehouse Gothic and Square]()
+After graduating from the UMN, I moved to New York City and worked as a designer at IBM for 3 years. At IBM, I was a visual designer for software, and subsequently a brand experience designer. 
 
-There are easily-spotted similarities: Warehouse takes inspiration from painted signage, and has one side with generally-round letters, and another side with generally-square letters. More importantly, however, with Warehouse I was exploring how a single type superfamily[1] might allow designers to easily pair different font styles to create rich and compelling typography.
+While designing software, my longest-running project was making financial dashboards for executives. Amongst many other things, I learned a ton about using type for software interfaces. IBM used Helvetica Neue at that time, and I grew to understand both its strengths and limitations. In some ways, Helvetica was a great typeface to work with, because it was easy to fit a lot of content into relatively small spaces, and things looked cohesive and classic when set in all-Helvetica. However, there were downsides to using Helvetica in software design: its tight spacing and small apertures made it hard to read at small sizes, its default figures weren't tabular and so it was hard to use in data-heavy tables. As a ubiquitous font in modern-day visual culture, it could also tend to lead to design that looked bland and uninspired. Through many hours of trial-and-error while making mockups, I also discovered less-obvious limitations. I didn't have a matching monospace font to work with, so even if I did want to use a monospace font for tabular data or to present strings like passwords, these wouldn't match the sizing or style of our primary type. Each font style took up different widths (the bold was wider than the light), so I found that we couldn't change font styles to show state in menus or links – I had to rely solely on cues like color and object movement for "microinteractions" to communicate interactivity to users. The mixed availability of Helvetica was another challenge – I had Helvetica on my Mac computer, but teammates and users with PCs weren't even seeing the same typeface that I spent my time designing with, but rather, seeing fallbacks. We didn't serve webfonts because that would slow down loading times and the fallback fonts were "close enough" for most people, anyway.
 
-    [1] Whereas a type family is a set of related individual fonts – such as Regular, Italic, Bold, and Bold Italic, a type **superfamily** is a set of related type families – such as a sans-serif type family that is made with deliberate similarities to a serif type family. 
+After my time designing software UI, I moved into the role of a brand experience designer in IBM's artifical intelligence division, IBM Watson. I made this change at a really fortuitous time: the company's core brand team was just starting to roll out new branding for Watson, and I was able to help implement this on everything from conference merch to Watson webpages to app icons. Around the same time, IBM also started to change over from Helvetica to IBM Plex, an incredible type family designed for IBM by Mike Abbink and Bold Monday. Getting to work with Plex was a total delight: it took a fresh look at IBM's rich design history, but offered a solution tailored to suit the huge range of needs across software, web, and services. IBM had ordered the type family a custom project, so they controlled the licensing and made it open source, making it easy for every IBMer (and anyone else) to have copies of the right fonts to use in making and experiencing IBM products. Even better, Mike Abbink and IBM's core brand team used the introduction of Plex to transform the company's visual & graphic design as a whole. This was a powerful lesson in how transformative it can be to have type that is well-suited to the task of designing for software and the web.
 
-### On pairing typefaces
+Through my time at IBM, I also learned a lot beyond typography. I was a designer rather than a developer, but I found I was often most effective when I got closer to the code. Over my time there, I went from spending almost my design time in visual design tools to spending almost half of my design time in code, bringing the design work from others into production CSS and prototyped JavaScript for developers to use in building marketing webpages.
 
-As a graphic designer, I am often drawn to compositions that use multiple typefaces. However, I have a confession to make: I've always found it a bit of a confusing challenge to pair different typefaces for a design. There are two primary problems to solve: 
-
-- First, there is the problem of selection. What makes a successful combination of typefaces? Similar (or complementary) historical references? The same (or complementary) type designers? The overall shaping of letters? Some hard-to-define "vibe" of the fonts? All of these approaches have their merits, but it can be totally perplexing to feel confidence in a choice – especially for folks approaching the challenge for the first time.
-
-- Second, there is the problem of actually using two or more typefaces together. Typefaces have no set standard for the relative heights of uppercase or lowercase letters, or even of overall sizing. That is, a font size such as "12 points" will have very different body size and line spacing from font to font. In a complex typographic context like a magazine, a website, or an application user interface, this can add significant complexity to the set of styles required to set text harmoniously.
-
-For these reasons and more (such as font availability and licensing consistency), type superfamilies can be very appealing for graphic and interactive design. If a superfamily is made with compatible metrics in addition to harmoniously-designed styles, they can allow designers to make rich, expressive documents, saving them a large amount of work in finding visually-compatible fonts and then making these work together in a system.
-
-## The limitations of traditional digital fonts on the web and in software 
-
-Before TypeMedia, I worked as a visual designer for software and a brand experience designer, principally for the web.
-
-While designing software, my longest-running project was making financial dashboards. My team was bound by product design guidelines to use Helvetica Neue. Over time, I grew to understand its strenths and weaknesses. Its tight spacing and small apertures made it hard to read at small sizes, its default figures weren't tabular and so it was hard to use in data-heavy tables. I didn't have a matching monospace font to work with, so even if I did want to use a monospace font for tabular data or to present strings like passwords, these wouldn't match the sizing or style of our primary type. As a visual designer, I often wanted to show the user what items were interactive or currently-selected, and I found that if I used type style as one signifier, the word shapes and line lengths would get interupted. That is, Bold text took more space than Regular text, so it looked a little off to bold text as a selected state, and _really_ janky to do so as a hover state.
-
-Once I started to make Recursive, it was these problems that I had in mind.
-
-## Why make a font for code?
-
-I see myself as a designer more than a developer, but I again and again, I find that code is an excellent tool for design and productivity. In web projects, I am much more effective as a teammate when I can write code and PR this to a developer. In type, there are many repetitive workflows that can be automated in relatively simple ways with scripting. 
-
-Aside from finding code to be a useful tool for design, I simply love to code.
+Aside from finding code to be a useful tool for design, I simply love to code. It doesn't come as naturally to me as it might to others, but when I solve a problem in code, it lights up my brain in a way that nothing else can. 
 
 I have a special love of the web – especially the people, communities, and philosophies of web development. I love the many fun, warm-hearted resources for people wanting to grow as web developers – sites like CSS Tricks and MDN, tools like CodePen and CodeSandbox, frameworks like GatsbyJS, and podcasts like Syntax FM, Toolsday, and ShopTalkShow. I love that by and large, web development is a welcoming field, embraces experimentation, and strives to keep user needs as the basis of how things work.
 
-Therefore, with Recursive I was "scratching an itch" in making myself a font that I found as nice as possible to code with. However, I was especially seeking to make something that would allow me to contribute something back to the web development community. I wanted it to be as fun, warm, and experimental as my favorite parts of the field, and of course, I also wanted it to be as useful as possible.
-
-
-
-## What is TypeMedia?
+Along side my work at IBM and my efforts to learn to code, I spent time practicing lettering and type design. I made lettering for posters and events at work, I made type experiements inspired by the letters of New York City, and I even painted a couple of murals for small businesses in Brooklyn. I attended type events and workshops in the city and tried to chase followers and likes on Instagram (where I found that people had a strange attraction to anything based on brush scripts – and that I did, too). For much of those 3 years working, I dreamed of making it into TypeMedia and pursuing type design seriously. I applied after my first year of working, but didn't make it in. I worked hard, got in more design experience, and upgraded my portfolio for the next year's application ... and I made it in for the 2017–2018 class!
 
 TypeMedia is a yearly program that brings together 12 students from around the world focus on many aspects of type design. In the first semester, classes cover topics like type revival, stonecarving, creating original type families, and coding in Python to produce & test type. In the second semester, each student focuses on a thesis project and develops this with regular feedback and critique from professors, peers, and visiting designers. 
 
 This "pressure cooker" of a course is an intensive 10-months, but this environment has helped produce many amazing type designers and original typefaces. Many of the designers who lead TypeMedia studied under Gerrit Noordzij, a type designer & educator who elegantly described a theory that different forms of writing can be the basis of original & flexible type systems. Because of this legacy, many of the typefaces produced as TypeMedia thesis projects have a connection to calligraphic forms of writing. 
 
-The teachers that lead TypeMedia are themselves accomplished type designers, who have contributed greatly to the theory and technology of the industry. They do a great deal to pass on their knowledge to students and to help students explore and learn for themselves – and I attended the program at a good time to do just that. Variable fonts are a relatively old idea (there was a similar technology on Mac computers in the early 1990s[2]), but they have only really been feasible to design and use in the past few years. My class of TypeMedia was one of the first or second for which the technology was actually feasible to design for, so several of my classmates and I dove into the topic to explore how we could make projects to explore the expanded outer limits of fonts.
-
-    [2] **Multiple masters** were...... citation needed
+The teachers that lead TypeMedia are themselves accomplished type designers, who have contributed greatly to the theory and technology of the industry. They do a great deal to pass on their knowledge to students and to help students explore and learn for themselves – and I attended the program at a good time to do just that. Variable fonts are a relatively old idea, but they have only really been feasible to design and use in the past few years. My class of TypeMedia was one of the first or second for which the technology was actually feasible to design for, so several of my classmates and I dove into the topic to explore how we could make projects to explore the expanded outer limits of fonts.
 
 Recursive comes from my experiences as a designer, wishing for a typeface that just worked *better* in software. It is my effort to make something new, useful, and fun for the web development community. Recursive comes from my love for brush lettering and the diverse signage of NYC. Recursive comes from TypeMedia, where it was a way to explore both the theory of type from handwritten strokes and the technological advances in type design.
 
-## Single-stroke Casual
 
-Aside from software design and web development, I also have a great love for lettering and calligraphy. Before TypeMedia, I spent a lot of time learning about and practicing these skills. To me, one of the most fun challenges in lettering is to take something written in an organic way – often with a brush – and refine it into something with better shaping, spacing, legibility, and simplicity of form. This practice translates well into drawing type, because type often just takes this process of refinement and brings drawings or ideas into an interchangeable system of glyphs. 
+## The underlying idea
 
-At TypeMedia, we were often told to embrace a thesis project that would be weird and ambitious, forgetting notions of making something to immediately define and sell. We had 5 months to dedicate totally to a project, and that is a very rare opportunity. One alum told us, "now that variable fonts exist, I would approach the thesis completely differently." They left it up to us to imagine just *how* we should approach it differently, and that was the point. We weren't supposed to get answers from those before us; we were supposed to seek our own.
+I had obviously been thinking about what to do in my TypeMedia thesis for a long time before starting the program, and in the first semester, I thought I knew exactly the project I would end the year with. However, throughout the year, my classmates and I asked teachers, alumni, and visiting designers for advice, and this shifted my opinion. A few comments stood out above the rest. 
 
-With these prompts, I sketched ideas for my thesis. A direction I kept coming back to was a single-stroke casual.
+We were often told to embrace something weird and ambitious, forgetting notions of making something to immediately define and sell, because it is such a rare opportunity to spend 5 months with such complete focus on one project. One alum who returned to teach a workshop said something like, "now that variable fonts exist, you should approach type design completely differently." They left it up to us to imagine just *how* we should approach it differently, but that was the point. We weren't supposed to get answers from those before us; we were supposed to seek our own.
 
-_Single-stroke casual_ is a genre of signpainting which is often the first style taught to beginner signpainters. Each signpainter has their own version of it, but it adheres to some typical attributes: 
+And so, I sketched new ideas for my thesis. One that I kept coming back to was a single-stroke casual. This is a genre of writing which I have found to be extremely appealing for as long as I have been paying attention to lettering and signpainting. Each signpainter has their own version of it, but it adheres to some typical attributes: it's usually written a slant, it's often written in all-caps, it uses a limited set of simple-to-paint strokes to create letters that are lively and warm, and usually "low waisted" construction. Often, if casual caps are paired with a lowercase, they are painted in a connected script. Drawing casual letters with a brush pen in my notebook made me realize that I could squish and stretch them wildly, and they still held up their energy and sense of excitement. 
 
-- Letters are written with a limited set of simple-to-paint, gently-curved strokes.
-- Letters usually written with a slant.
-- Letters are usually all-capitals.
-- Letters often have a "low waisted" construction, with crossbars placed below the optical middle.
-
-These attributes work together to make a style that is simple to learn, visually forgiving, and efficient to paint due to its single-stroke construction (as opposed to more-formal styles that require more finely-placed, combined strokes for each letter).
-
-Often, if casual caps are paired with a lowercase, they are painted in a connected script. Drawing casual letters with a brush pen in my notebook made me realize that I could squish and stretch them wildly, and they still held up their energy and sense of excitement. With a brush pen, I was free to try many atypical styles: super-bold, ultra-condensed, ultra-wide extra-swashy, and more. I found that a single-stroke casual basis lent itself to a very flexible "design space."[3]
-
-    [3] The **design space** of a typeface is its total possible area of stylistic possibilities. In variable fonts, the design space is often represented as geometric shapes such as a rectangle or a cube, to visually plot the relationship of axes.
-
-I love coding for what it allows me to do. However, I have to admit: I also love the aesthetics of it. I love that a programmer's primary interface is type, with little else. On a micro lebel, I particularly like the way that monospaced type creates a tabular rhymtm by compressing some letters (narrow `w` and `m`, etc) and extending others (slab-serifed `i` and `l`, etc). So, of course, I also started sketching single-stroke casuals as fixed-width letters.
+As someone who loves not just the act of coding but also its aesthetic – particularly the way that monospaced type creates a tabular rhymtm by compressing some letters and extending others – I also started sketching casual caps and scripts as fixed-width letters. Lo and behold, they kept their magnetic pull on my eyeballs.
 
 ![](images/recursive-notebook_sketch-alphabets.jpg)
 ![](images/recursive-notebook_sketch-axis_a.jpg)
 ![](images/recursive-notebook_sketch-pseudo.jpg)
 
-In TypeMedia, I was very lucky to have two classmates (Gen Ramirez & Seán Donohoe) who are skillful signpainters. They taught the rest of us useful lessons in basic signpainting. With their help, I learned to practice brush painting with acrylic paint on windows and paper. With this approach, I interspersed actual painting throughout the semester, to keep my ideas rooted in the actual source material, even while I did much of my day-to-day sketching with a simpler-to-control brush pen. I sought to develop my own style of casual letters, and I found inspiration from many signpainters, including:
+In TypeMedia, I was very lucky to have two classmates (Gen Ramirez & Seán Donohoe) who are skillful signpainters. They taught the rest of us useful lessons in basic letter painting. With their help, I learned to practice brush painting with acrylic paint on windows and paper. With this approach, I interspersed painting throughout the semester, to keep my ideas rooted in the source material, even while I did much of the sketching with a simpler-to-control brush pen. I sought to develop my own style of casual letters, and I found inspiration from many signpainters, including:
 
 - John Downer: https://www.instagram.com/p/ByWK9p6BDdG/
 - Sthlm Signs: https://www.instagram.com/p/BZv4hf1lrrY/
@@ -133,16 +96,10 @@ In TypeMedia, I was very lucky to have two classmates (Gen Ramirez & Seán Donoh
 - Ged Palmer: https://www.instagram.com/p/BkhVzMoF8OQ/
 - Petra D: https://www.instagram.com/p/Bc15OdlBepj/
 
-Not only was I seeking to find my own style of casual letters, but I was also searching for a way to make a more readable, more widely-usable style. The most-obvious thing this suggested was that I needed to make a lowercase that was a typical Roman[4] rather than a connected script. I also wanted to create letters that weren't trying to copy signpainting _exactly_, but which were more "typographic" – not just traced from painted letters, but simplified in visual style and properly suited to text usage on screens. 
+Not only was I seeking to find my own style of casual letters, but I wanted to make a lowercase that was a typical "Roman," rather than a connected script, and I wanted to create letters that weren't just copying signpainting, but which were more "typographic" – simplified in visual style and overall curvature, and properly adapted to screens. 
 
-    [4] **Roman** letters are the letters we are most used to seeing in Latin-script fonts and "print" style handwriting. Each letter is separate from the next, and each has what we tend to think of as its most-basic form.
+The concept & design of Recursive is very rooted in the idea that every stroke of every letter should come from what a signpainter could produce with a brush. This approach enabled me to explore a system that could morph in proportion, expression, weight, and slant, but still remain cohesive and tied to its initial inspiration. 
 
-The concept & design of Recursive is very rooted in the idea that every stroke of every letter should come from what a signpainter could produce with a brush. This approach enabled me to explore a system that could morph in proportion, expression, weight, and slant, but still remain cohesive and tied to its initial inspiration. Not only was Recursive conceptually based on this approach, but the shapes were very much formed by following this concept quite literally. For the entirety of TypeMedia, I drew each glyph with multiple, separate contours instead of with overlaps removed in the more-typical fashion of drawing digital type.
-
-[IMAGE OF SKETCHES WITH SEPARATE CONTOURS]
-[IMAGE OF EARLY BEZIER DRAWING WITH SEPARATE CONTOURS]
-
-In the end, this approach of using separate contours was something I had to change, due to rendering issues on screen. This was very labor-intensive (it almost meant redrawing every single glyph), so it's not an approach I would follow again, but in this thesis project, it helped me find shapes that I may have otherwise missed.
 
 ## My design approach
 
