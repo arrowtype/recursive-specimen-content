@@ -91,7 +91,7 @@ TypeMedia is a yearly program that brings together 12 students from around the w
 
 This "pressure cooker" of a course is an intensive 10-months, but this environment has helped produce many amazing type designers and original typefaces. Many of the designers who lead TypeMedia studied under Gerrit Noordzij, a type designer & educator who elegantly described a theory that different forms of writing can be the basis of original & flexible type systems. Because of this legacy, many of the typefaces produced as TypeMedia thesis projects have a connection to calligraphic forms of writing. 
 
-The teachers that lead TypeMedia are themselves accomplished type designers, who have contributed greatly to the theory and technology of the industry. They do a great deal to pass on their knowledge to students and to help students explore and learn for themselves – and I attended the program at a good time to do just that. Variable fonts are a relatively old idea (there was a similar technology on Mac computers in the early 1990s[2]), but they have only really been feasible to design and use in the past few years. My class of TypeMedia was one of the first or second for which the technology was actually feasible to design for, so several of my classmates and I dove into the topic to explore how we could make projects to explore the expanded outer limits of fonts.
+The teachers that lead TypeMedia are themselves accomplished type designers, who have contributed greatly to the theory and technology of the industry. They do a great deal to pass on their knowledge to students and to help students explore and learn for themselves – and I attended the program at a good time to do just that. Variable fonts are a relatively old idea (there was a similar technology on Mac computers in the early 1990s[2]), but they have only really been standardized and gaining wide support within the past few years. My class of TypeMedia was one of the first or second for which the technology was actually feasible to design for, so several of my classmates and I dove into the topic to explore how we could make projects to explore the expanded outer limits of fonts.
 
     [2] **Multiple masters** were...... citation needed
 
@@ -114,7 +114,7 @@ _Single-stroke casual_ is a genre of signpainting which is often the first style
 
 These attributes work together to make a style that is simple to learn, visually forgiving, and efficient to paint due to its single-stroke construction (as opposed to more-formal styles that require more finely-placed, combined strokes for each letter).
 
-Often, if casual caps are paired with a lowercase, they are painted in a connected script. Drawing casual letters with a brush pen in my notebook made me realize that I could squish and stretch them wildly, and they still held up their energy and sense of excitement. With a brush pen, I was free to try many atypical styles: super-bold, ultra-condensed, ultra-wide extra-swashy, and more. I found that a single-stroke casual basis lent itself to a very flexible "design space."[3]
+Drawing casual letters made me realize that I could squish and stretch them wildly, and they still held up their energy and sense of vitality. With a brush pen, I was free to easily explore many atypical styles: super-bold, ultra-condensed, ultra-wide extra-swashy, and more. I found that a single-stroke casual basis lent itself to a very flexible "design space."[3]
 
     [3] The **design space** of a typeface is its total possible area of stylistic possibilities. In variable fonts, the design space is often represented as geometric shapes such as a rectangle or a cube, to visually plot the relationship of axes.
 
@@ -133,7 +133,7 @@ In TypeMedia, I was very lucky to have two classmates (Gen Ramirez & Seán Donoh
 - Ged Palmer: https://www.instagram.com/p/BkhVzMoF8OQ/
 - Petra D: https://www.instagram.com/p/Bc15OdlBepj/
 
-Not only was I seeking to find my own style of casual letters, but I was also searching for a way to make a more readable, more widely-usable style. The most-obvious thing this suggested was that I needed to make a lowercase that was a typical Roman[4] rather than a connected script. I also wanted to create letters that weren't trying to copy signpainting _exactly_, but which were more "typographic" – not just traced from painted letters, but simplified in visual style and properly suited to text usage on screens. 
+Not only was I seeking to find my own style of casual letters, but I was also searching for a way to make a more readable, more widely-usable style. Often, if casual caps are paired with a lowercase, the lowercase letters are written as a connected script. To make my project appropriate for use in code & UI, I needed to make a lowercase that was a more-typical Roman[4] construction, rather than a connected script. I also wanted to create letters that weren't trying to copy signpainting _exactly_, but which were more "typographic" – not just traced from painted letters, but simplified in visual style and properly suited to text usage on screens. 
 
     [4] **Roman** letters are the letters we are most used to seeing in Latin-script fonts and "print" style handwriting. Each letter is separate from the next, and each has what we tend to think of as its most-basic form.
 
