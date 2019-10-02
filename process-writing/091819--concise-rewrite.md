@@ -1,8 +1,10 @@
- # Recursive Process & Origins
+# Recursive Process & Origins
 
  _Recursive is a variable font[1] family for code & interactive design. It takes its initial inspiration from single-stroke casual signpainting, but extends this style into a wide-ranging designspace[2] to deliver advanced typographic control & flexibility. Started as a thesis project at KABK TypeMedia in 2018, it was later commissioned for open-source release by Google Fonts. It has since been extensively expanded and refined for release in late 2019._
 
-The Recursive project has been driven by three overarching goals:
+I love the web, I love letterforms, and I love type technology.
+
+It's not surprising, then, that the Recursive project has been driven by three overarching goals:
 
 1. Making something fun & useful for web design & development
 2. Unocovering what a "single-stroke casual" for code & user interfaces (UI) could be
@@ -20,16 +22,16 @@ With these goals in mind, here is the story of Recursive.
 
 ## The origins of Recursive
 
-Before shifting my focus to type design, I studied graphic design, then worked as a designer at IBM for 3 years. There, I worked first as a digital product designer, and later as a brand experience designer. My primary focus was on the visual design and user experience of web-based applications and marketing. Over my time in these roles, I shifted more and more towards using web code to prototype and implement design.
+Before becoming a type designer, I studied graphic design, then worked as a digital product and web designer. My primary focus was on the visual design and user experience of web-based applications and marketing websites. Over my time in these roles, I shifted more and more towards using web code to prototype and implement design.
 
-Working in these roles, I was particulary focused on typographic clarity and microinteractions[1]. I picked up on details in fonts that worked – or didn't – for interactive interfaces. Initially, I was designing UI with Helvetica Neue. Helvetica has some wonderful qualities, but I found a few primary problems:
+Working in these roles, I was particularly focused on typographic clarity and microinteractions[1]. I picked up on details in fonts that worked – or didn't – for interactive interfaces. Initially, I was designing UI with Helvetica Neue. Helvetica has some wonderful qualities, but I found a few primary problems:
 
 1. The closed apertures (openings in letters like `a`, `e`, and `s`), overly-similar shaping (`I` vs `l`, `6` vs `8` vs `9`, and so on), and tight spacing of Helvetica make it a beautiful font for use in marketing or relatively large text, but my teams were creating UI that required small type and presented rich, complex data. Readability[2] and legibility[3] were never as optimal as I wanted them to be.
 
 2. Our version of Helvetica lacked tabular figures (numbers that take up the same width, across font styles), which was especially problematic for the complex financial data in one of my main projects. At this time, many teams at IBM started using monospace fonts for such data, but there wasn't an obvious option for which monospace font should be used. Pairing fonts effectively can be difficult in general: there is the subjective challenge of finding complementary styles, plus the technical challenge of harmonizing layout when proportions and metrics vary from font to font.
 
-3. Traditional digital fonts are frustratingly unuseful for interactivity. For me, this breaks down into three primary reasons:
-   
+3. Traditional digital fonts are frustratingly limiting for interactivity. For me, this breaks down into three primary sub-issues:
+
    1. Static fonts exist as separate files for each font style, so adding multiple styles to a website tends to cause a debate over loading time, pitting typographic range against web performance. Because web performance is more-easily measured than typographic elegance, it tends to win this debate. Luckily, this can be addressed in part with variable fonts, and made far better still with smart font loading strategies ([here's one excellent guide on this subject](https://www.zachleat.com/web/comprehensive-webfonts/)).
 
    2. Static fonts can't smoothly transition from one style to another. Microinteractions often rely on smooth transitions, but for fonts, these tend to be limited to scale and position, as traditionally, font *style* was off-limits. Again, variable fonts offer the possibility to change this.
@@ -50,11 +52,11 @@ Today, the first problem has been largely solved by Helvetica Now, which has spe
 
 ## TypeMedia
 
-On the side of working at IBM, I developed a personal practice of lettering, calligraphy, and type design. I found little ways to work these interests into projects at work, but mostly, it was just a fun way to spend my time and explore the broader world of design.
+On the side of working as a web designer, I developed a personal practice of lettering, calligraphy, and type design. I found little ways to work these interests into projects at work, but mostly, it was just a fun way to spend my time and explore the broader world of design.
 
 One of my main interests in lettering was starting ideas with handwritten brush lettering and taking these into carefully-drawn lettering. The process of simplifying the textural, organic writing into specific, black-and-white outlines is challenging but satisfying, and connected well to my long-term interest in logos and type design.
 
-After years of dreaming about it, I finally made it into a masters program for type design, TypeMedia, at the Royal Academy of Arts in The Netherlands. I was one of twelve students from around the world who were lucky enough to study under some of the best type designers in Europe for 10 intensive months. 
+After years of dreaming about it, I finally made it into a masters program for type design, TypeMedia, at the Royal Academy of Arts in The Netherlands. I was one of twelve students from around the world who were lucky enough to study under some of the best type designers in Europe for 10 intensive months.
 
 The first semester of TypeMedia is a broad survey of approaches to type and letter design, covering topics including type revival, Python, stone carving, Arabic script, and the formal construction of different styles of type. In the second semester, each student created a single type design project to work on for 5 months, and pursued this under the frequent reviews and critique from our teachers.
 
@@ -64,7 +66,7 @@ With these prompts, I sketched ideas for my thesis. A direction I kept coming ba
 
 ## An origin in painted letters
 
-_Single-stroke casual_ is a genre of signpainting which is often the first style taught to beginner signpainters. Each signpainter has their own version of it, but it adheres to some typical attributes: 
+_Single-stroke casual_ is a genre of signpainting which is often the first style taught to beginner signpainters. Each signpainter has their own version of it, but it adheres to some typical attributes:
 
 - Letters are constructed from a limited set of simple-to-paint, gently-curved strokes. Each segment of a letter is painted as a single stroke rather than built up from multiple brush strokes (as is sometimes the case for other, more-complex signpainting styles).
 - Letters usually written with a slant.
@@ -123,7 +125,7 @@ So, I dug into my experience in web design. There, I had learned that using an [
 
 ### Was the design "compromised" to achieve variability?
 
-- Design is finding an elegant way to satisfy constraints and solve problems. With Recursive, I had done that. 
+- Design is finding an elegant way to satisfy constraints and solve problems. With Recursive, I had done that.
 - Variable fonts require more thought about the *system* of a type family, and make it impossible to focus on just a few styles, as font designers could with static fonts. This means that it's much more versatile, but it also means that these fonts often don't have 100% flawless outlines.
 
 ### Working through technical difficulties
@@ -133,7 +135,7 @@ The concept & design of Recursive is rooted in the idea that every stroke of eve
 [IMAGE OF SKETCHES WITH SEPARATE CONTOURS]
 [IMAGE OF EARLY BEZIER DRAWING WITH SEPARATE CONTOURS]
 
-Near the end of TypeMedia, I discovered a major problem with my drawing approach: it resulted in rendering issues on screens. Where strokes overlapped, rasterizes would often "double up" the pixel darkness, giving some letters a blobby look. It was difficult to accept that this would have to be changed, both because it would be very labor-intensive to change all my drawings, and also because I felt that my concept would be diluted by removing the overlaps. However, to make the best-quality end product, my concept had to be adjusted. Luckily, I had help in adjusting my drawings, and the rework was actually beneficial in helping me to more fully consider how the final design ought to be. 
+Near the end of TypeMedia, I discovered a major problem with my drawing approach: it resulted in rendering issues on screens. Where strokes overlapped, rasterizes would often "double up" the pixel darkness, giving some letters a blobby look. It was difficult to accept that this would have to be changed, both because it would be very labor-intensive to change all my drawings, and also because I felt that my concept would be diluted by removing the overlaps. However, to make the best-quality end product, my concept had to be adjusted. Luckily, I had help in adjusting my drawings, and the rework was actually beneficial in helping me to more fully consider how the final design ought to be.
 
 [SCREENSHOT OF BLOBS]
 
@@ -146,7 +148,7 @@ Even though the overlapped drawings ultimately required more work than expected,
 
 ## Refining & finishing the project for release
 
-- Google Fonts commissioned me to finish Recursive, and even paid a few colalborators to make it possilbe.
+- Google Fonts commissioned me to finish Recursive, and even paid a few collaborators to make it possible.
 
 <!-- ------------------------------------------------------------------------- -->
 <!-- Tools ------------------------------------------------------------------- -->
