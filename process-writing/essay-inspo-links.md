@@ -12,6 +12,14 @@ Meet Inkwell
 - https://www.typography.com/blog/meet-inkwell
 - ≈1,205 words
 
+Obviously
+- https://ohnotype.co/blog/the-process-of-obviously
+- Length: ?
+
+Decimal
+- https://www.typography.com/fonts/decimal/design-notes
+- Length: ?
+
 
 ## Shorter examples
 
@@ -22,4 +30,3 @@ The Process of Vulf Mono
 Meet Isotope
 - https://www.typography.com/blog/meet-isotope
 - ≈499 words
-
